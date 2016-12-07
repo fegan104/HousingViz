@@ -12,6 +12,9 @@
 
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="import" href="/bower_components/paper-slider/paper-slider.html">
+    <link rel="import" href="/bower_components/paper-radio-group/paper-radio-group.html">
+    <link rel="import" href="/bower_components/paper-radio-button/paper-radio-button.html">
     <style>
       body {
         margin: 0;
@@ -30,7 +33,10 @@
       var color = d3.scale.category10();
       //display d3 inside of svg tag
       var canvas
-
+      var slider
+      var radioGroup
+      /** Draws the treemap
+      */
       function drawTreemap(){
         canvas = d3.select("body").append("svg")
           .attr("width", 500)
@@ -60,27 +66,58 @@
         })
       }
 
+      /** Changes the data to one form
+      */
       function changeData(){
         d3.select("svg").remove();
-        //Get our Tree map
-        d3.json("/data/foo.json", function(data){
-          treemap = d3.layout.treemap()
-            .size([500, 500])
-            .value(function(d) {return d.available;})
-            .nodes(data);
-        })
+        setUpTreemap(getSliderValue(), getSelected())
         drawTreemap();
       }
 
-      d3.json("/data/foo.json", function(data){
-        treemap = d3.layout.treemap()
-          .size([500, 500])
-          .value(function(d) {return d.AvgPrice;})
-          .nodes(data);
-      })
-      drawTreemap();
+      function setUpTreemap(dateIndex, valueType){
+        d3.json("/data/foo.json", function(data){
+          treemap = d3.layout.treemap()
+            .size([500, 500])
+            .value(function(d) {return valueType==="AvgPrice" ? d.AvgPrice : d.available;})
+            .nodes(data[dateIndex]);
+        })
+      }
+
+      function getSliderValue() {
+        return slider ? slider.value : 0;
+      }
+      function getSelected() {
+        return radioGroup ? radioGroup.selected : "AvgPrice";
+      }
+
+      window.onload=function() {
+        slider = document.getElementById("slider");
+        d3.json("/data/foo.json", function(data){
+          console.log(data);
+          slider.max = data.length-1;
+        })
+        slider.addEventListener('value-changed', function functionName(ev) {
+          changeData();
+        })
+        radioGroup = document.getElementById("group")
+        radioGroup.addEventListener('paper-radio-group-changed', function (ev) {
+            changeData();
+        });
+
+        setUpTreemap(getSliderValue(), getSelected());
+        drawTreemap();
+      }
+
     </script>
 
-    <button onclick="changeData()">Change Data</button>
+    <div>
+      <paper-radio-group id="group" selected="AvgPrice">
+        <paper-radio-button name="AvgPrice">Average Price</paper-radio-button>
+        <paper-radio-button name="available">Available</paper-radio-button>
+      </paper-radio-group>
+    </div>
+    <div>
+      <paper-slider id="slider" min="0" value="0" pin></paper-slider>
+    </div>
   </body>
 </html>
