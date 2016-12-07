@@ -1,0 +1,7 @@
+{
+  "name": "HousingViz",
+  "short_name": "HousingViz",
+  "description": "A visualization for the Housing team.",
+  "start_url": "/",
+  "display": "standalone"
+}

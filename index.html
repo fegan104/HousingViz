@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>HousingViz</title>
+    <meta name="description" content="HousingViz description">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #eeeeee;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      //Treemap to be displayed
+      var treemap
+      //used to color each section
+      var color = d3.scale.category10();
+      //display d3 inside of svg tag
+      var canvas
+
+      function drawTreemap(){
+        canvas = d3.select("body").append("svg")
+          .attr("width", 500)
+          .attr("height", 500);
+
+        d3.json("/data/foo.json", function(data){
+          //Let's make some rectangles
+          var cells = canvas.selectAll(".cell")
+            .data(treemap)
+            .enter()
+            .append("g")
+            .attr("class", "cell")
+
+          cells.append("rect")
+            .attr("x", function(d) { return d.x; })
+            .attr("y", function(d) { return d.y; })
+            .attr("width", function(d) { return d.dx; })
+            .attr("height", function(d) { return d.dy; })
+            .attr("fill", function (d) {return d.children ? null : color(d.name);})
+            .attr("stroke", "#fff")
+
+          cells.append("text")
+            .attr("x", function(d) { return d.x + d.dx/2; })
+            .attr("y", function(d) { return d.y + d.dy/2; })
+            .attr("text-anchor", "middle")
+            .text(function (d) {return d.children ? null : d.name;})
+        })
+      }
+
+      function changeData(){
+        d3.select("svg").remove();
+        //Get our Tree map
+        d3.json("/data/foo.json", function(data){
+          treemap = d3.layout.treemap()
+            .size([500, 500])
+            .value(function(d) {return d.available;})
+            .nodes(data);
+        })
+        drawTreemap();
+      }
+
+      d3.json("/data/foo.json", function(data){
+        treemap = d3.layout.treemap()
+          .size([500, 500])
+          .value(function(d) {return d.AvgPrice;})
+          .nodes(data);
+      })
+      drawTreemap();
+    </script>
+
+    <button onclick="changeData()">Change Data</button>
+  </body>
+</html>
