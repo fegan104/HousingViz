@@ -1,0 +1,1344 @@
+[
+  {
+    "name": "20161121",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Santa Croce",
+        "avgPrice": 141.13,
+        "available": 32,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 122.06,
+        "available": 109,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 191.18,
+        "available": 28,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 126.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 105,
+        "available": 44,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 133.78,
+        "available": 116,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 98.41,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 97,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 186.59,
+        "available": 49,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161122",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Cannaregio",
+        "avgPrice": 133.96,
+        "available": 129,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 124.15,
+        "available": 124,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 122.97,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 329.6,
+        "available": 10,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 186.81,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 126.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 210.34,
+        "available": 53,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 112.74,
+        "available": 47,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 128.93,
+        "available": 42,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161201",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Cannaregio",
+        "avgPrice": 116.38,
+        "available": 115,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 123.02,
+        "available": 131,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 134.11,
+        "available": 37,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 543.5,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 122.83,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 174.32,
+        "available": 68,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 197.35,
+        "available": 26,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 111.02,
+        "available": 43,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 138.48,
+        "available": 31,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161111",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Castello",
+        "avgPrice": 139.04,
+        "available": 49,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 176.67,
+        "available": 15,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 712,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 217.84,
+        "available": 25,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 303.82,
+        "available": 22,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 171.05,
+        "available": 21,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 150.58,
+        "available": 50,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 139.25,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 134.3,
+        "available": 10,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161116",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Cannaregio",
+        "avgPrice": 125.87,
+        "available": 71,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 117.59,
+        "available": 82,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 177.47,
+        "available": 19,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 107.96,
+        "available": 23,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 129.09,
+        "available": 32,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 115,
+        "available": 21,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 101.33,
+        "available": 3,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 118.6,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 192.92,
+        "available": 38,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161117",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 131.24,
+        "available": 25,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 577.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 118.6,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 202.24,
+        "available": 50,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 118.86,
+        "available": 95,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 223.95,
+        "available": 20,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 114.94,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 136.03,
+        "available": 32,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 134.82,
+        "available": 82,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161119",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Murano",
+        "avgPrice": 131.5,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 373.87,
+        "available": 15,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 163.89,
+        "available": 9,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 192.77,
+        "available": 39,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 167.77,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 154.64,
+        "available": 11,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 574.4,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 231.25,
+        "available": 24,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 164.64,
+        "available": 22,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161202",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Castello",
+        "avgPrice": 148.09,
+        "available": 94,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 131.93,
+        "available": 29,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 209.5,
+        "available": 26,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 110.2,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 133.5,
+        "available": 28,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 147.04,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 121.08,
+        "available": 88,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 544.33,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 217.77,
+        "available": 39,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161113",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "San Marco",
+        "avgPrice": 233.77,
+        "available": 44,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 142.73,
+        "available": 37,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 138.83,
+        "available": 101,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 130.97,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 192.77,
+        "available": 30,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 123,
+        "available": 7,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 117.31,
+        "available": 39,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 119.01,
+        "available": 130,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 502.83,
+        "available": 6,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161114",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Lido",
+        "avgPrice": 234,
+        "available": 20,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 140.73,
+        "available": 26,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 578.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 118.6,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 214.73,
+        "available": 44,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 117.66,
+        "available": 32,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 132.31,
+        "available": 35,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 136.55,
+        "available": 92,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 122.64,
+        "available": 111,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161129",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Castello",
+        "avgPrice": 114.75,
+        "available": 120,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 122.37,
+        "available": 30,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 202.17,
+        "available": 24,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 122.83,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 188.67,
+        "available": 51,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 126.52,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 137.79,
+        "available": 29,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 119.37,
+        "available": 97,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 674.75,
+        "available": 4,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161204",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Murano",
+        "avgPrice": 110.2,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 110.53,
+        "available": 34,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 111.58,
+        "available": 90,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 175.89,
+        "available": 18,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 98,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 175.07,
+        "available": 42,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 157.83,
+        "available": 23,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 109.95,
+        "available": 94,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 110.57,
+        "available": 21,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161205",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Giudecca",
+        "avgPrice": 420.38,
+        "available": 8,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 145.97,
+        "available": 31,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 118.45,
+        "available": 131,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 121.06,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 95.71,
+        "available": 7,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 183.89,
+        "available": 54,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 114.43,
+        "available": 49,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 115.1,
+        "available": 134,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 193.62,
+        "available": 26,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161206",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 117.71,
+        "available": 42,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 352.8,
+        "available": 10,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 185.69,
+        "available": 29,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 140.91,
+        "available": 34,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 120.5,
+        "available": 130,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 112.13,
+        "available": 142,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 100.5,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 176.17,
+        "available": 64,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 115.18,
+        "available": 50,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161112",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Cannaregio",
+        "avgPrice": 174.74,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 579.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 124.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 170.57,
+        "available": 14,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 161.95,
+        "available": 39,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 195.7,
+        "available": 10,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 233.46,
+        "available": 24,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 385.53,
+        "available": 15,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 187.75,
+        "available": 4,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161118",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "San Polo",
+        "avgPrice": 115.73,
+        "available": 11,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 174.64,
+        "available": 14,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 181.3,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 146.54,
+        "available": 41,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 88.5,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 298.47,
+        "available": 17,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 133.78,
+        "available": 9,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 221.5,
+        "available": 16,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 118.6,
+        "available": 5,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161120",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Giudecca",
+        "avgPrice": 575.4,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 229.58,
+        "available": 19,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 131.5,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 132.97,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 122.29,
+        "available": 70,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 124.83,
+        "available": 95,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 141.11,
+        "available": 18,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 228.85,
+        "available": 41,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 109,
+        "available": 28,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161127",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Lido",
+        "avgPrice": 173.7,
+        "available": 20,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 123.6,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 252.33,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 112.75,
+        "available": 104,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 117.48,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 111,
+        "available": 3,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 117.04,
+        "available": 73,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 122.56,
+        "available": 25,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 158.67,
+        "available": 21,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161128",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Castello",
+        "avgPrice": 111.45,
+        "available": 127,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 118.56,
+        "available": 32,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 201.04,
+        "available": 24,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 201.6,
+        "available": 45,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 115.5,
+        "available": 38,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 142.13,
+        "available": 23,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 116.48,
+        "available": 97,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 674.75,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 114.86,
+        "available": 7,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161130",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Santa Croce",
+        "avgPrice": 135.24,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 113.96,
+        "available": 126,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 119.28,
+        "available": 137,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 121.85,
+        "available": 41,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 197.93,
+        "available": 27,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 122.83,
+        "available": 6,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 114.98,
+        "available": 47,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 674.75,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 180.1,
+        "available": 62,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161203",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "Cannaregio",
+        "avgPrice": 131.71,
+        "available": 45,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 189.32,
+        "available": 19,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 110.2,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 280,
+        "available": 25,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 162.29,
+        "available": 21,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 136.16,
+        "available": 56,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 97,
+        "available": 15,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 98,
+        "available": 4,
+        "children": null
+      },
+      {
+        "name": "San Polo",
+        "avgPrice": 136.08,
+        "available": 13,
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "20161115",
+    "avgPrice": 0,
+    "available": 0,
+    "children": [
+      {
+        "name": "San Polo",
+        "avgPrice": 123.33,
+        "available": 33,
+        "children": null
+      },
+      {
+        "name": "Cannaregio",
+        "avgPrice": 129.73,
+        "available": 88,
+        "children": null
+      },
+      {
+        "name": "Castello",
+        "avgPrice": 122.01,
+        "available": 103,
+        "children": null
+      },
+      {
+        "name": "Giudecca",
+        "avgPrice": 577.8,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Lido",
+        "avgPrice": 217.05,
+        "available": 21,
+        "children": null
+      },
+      {
+        "name": "San Marco",
+        "avgPrice": 205.34,
+        "available": 50,
+        "children": null
+      },
+      {
+        "name": "Dorsoduro Accademia",
+        "avgPrice": 129.79,
+        "available": 29,
+        "children": null
+      },
+      {
+        "name": "Murano",
+        "avgPrice": 118.4,
+        "available": 5,
+        "children": null
+      },
+      {
+        "name": "Santa Croce",
+        "avgPrice": 136.76,
+        "available": 34,
+        "children": null
+      }
+    ]
+  }
+]

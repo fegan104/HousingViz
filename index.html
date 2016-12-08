@@ -35,6 +35,7 @@
       var canvas
       var slider
       var radioGroup
+      var fileName = "/data/formatted_testfox.json"
       /** Draws the treemap
       */
       function drawTreemap(){
@@ -42,7 +43,7 @@
           .attr("width", 500)
           .attr("height", 500);
 
-        d3.json("/data/foo.json", function(data){
+        d3.json(fileName, function(data){
           //Let's make some rectangles
           var cells = canvas.selectAll(".cell")
             .data(treemap)
@@ -75,10 +76,10 @@
       }
 
       function setUpTreemap(dateIndex, valueType){
-        d3.json("/data/foo.json", function(data){
+        d3.json(fileName, function(data){
           treemap = d3.layout.treemap()
             .size([500, 500])
-            .value(function(d) {return valueType==="AvgPrice" ? d.AvgPrice : d.available;})
+            .value(function(d) {return valueType==="avgPrice" ? d.avgPrice : d.available;})
             .nodes(data[dateIndex]);
         })
       }
@@ -87,12 +88,12 @@
         return slider ? slider.value : 0;
       }
       function getSelected() {
-        return radioGroup ? radioGroup.selected : "AvgPrice";
+        return radioGroup ? radioGroup.selected : "avgPrice";
       }
 
       window.onload=function() {
         slider = document.getElementById("slider");
-        d3.json("/data/foo.json", function(data){
+        d3.json(fileName, function(data){
           console.log(data);
           slider.max = data.length-1;
         })
@@ -111,8 +112,8 @@
     </script>
 
     <div>
-      <paper-radio-group id="group" selected="AvgPrice">
-        <paper-radio-button name="AvgPrice">Average Price</paper-radio-button>
+      <paper-radio-group id="group" selected="avgPrice">
+        <paper-radio-button name="avgPrice">Average Price</paper-radio-button>
         <paper-radio-button name="available">Available</paper-radio-button>
       </paper-radio-group>
     </div>
